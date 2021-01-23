@@ -1,15 +1,18 @@
+// WEMOS D1 mini
+
 #define BLYNK_PRINT Serial
 #include <ESP8266WiFi.h>
 #include <BlynkSimpleEsp8266.h>
 
 #include <SPI.h>
 
-#include <Thermocouple.h>
-#include <MAX6675_Thermocouple.h>  //https://github.com/YuriiSalimov/MAX6675_Thermocouple
 
-#define SCK_PIN 3
-#define CS_PIN 4
-#define SO_PIN 5
+#include <MAX6675_Thermocouple.h>  //https://github.com/YuriiSalimov/MAX6675_Thermocouple
+#include <Thermocouple.h>
+
+#define SCK_PIN 3 //RX
+#define CS_PIN 4 //D2
+#define SO_PIN 5 //D1
 
 Thermocouple* thermocouple;
 BlynkTimer timer;
