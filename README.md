@@ -1,5 +1,6 @@
 # Max6675-Blynk BBQ
-Simple sketch to send temperatures from a Max6675 Thermocouple to Blynk app.
+Simple sketch to send temperatures from a Max6675 Thermocouple to Blynk app. with a Wemos D1 mini.
+
 I use this to monitor temperature in  my BBQ.
 
 Use GAUGE Display in Blynk App connected to V4.
